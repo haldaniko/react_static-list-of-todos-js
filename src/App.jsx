@@ -18,7 +18,7 @@ export const App = () => (
     <h1 className="App__title">Static list of todos</h1>
 
     <section className="TodoList">
-      <TodoList todosList={todos} />
+      <TodoList todos={todos} />
     </section>
   </div>
 );
